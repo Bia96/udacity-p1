@@ -1,3 +1,4 @@
+/* Framework */
 * {
     border: 1px solid blue !important;
 }
@@ -74,4 +75,37 @@
 
 .col-12 {
     width: 100%;
+}
+
+/* Header Styling */
+
+.row.header {
+    background-color: #4d1b38;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2.6em;
+    color: #ffc068;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+    color: #4d1b38; 
+    font-weight: 300;
+}
+
+h3.subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: beige;
+    font-size: 1.4em;
+}
+
+h3.work.name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fa5720;
+    font-size: 1.9em;
 }
