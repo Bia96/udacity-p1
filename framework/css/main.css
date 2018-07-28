@@ -1,7 +1,4 @@
-/* Framework */
-* {
-    border: 1px solid blue !important;
-}
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -80,26 +77,26 @@
 /* Header Styling */
 
 .row.header {
-    background-color: #4d1b38;
+    background-color: #fafafa;
 }
 
 h1 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 2.6em;
-    color: #ffc068;
+    color: #e0361c;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 1.8em;
-    color: #4d1b38; 
+    color: #e0361c; 
     font-weight: 300;
 }
 
 h3.subtitle {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    color: beige;
+    color:#fa5720;
     font-size: 1.4em;
 }
 
@@ -109,3 +106,8 @@ h3.work.name {
     color: #fa5720;
     font-size: 1.9em;
 }
+
+.col-6.title {
+    padding-right: 15px;
+}
+
