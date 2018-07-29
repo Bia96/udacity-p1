@@ -1,4 +1,4 @@
-
+/* Framework */
 
 * {
     -webkit-box-sizing: border-box;
@@ -74,36 +74,45 @@
     width: 100%;
 }
 
-/* Header Styling */
+/* Header and text Styling */
+
+body {
+    background: #FBFAF1;
+}
 
 .row.header {
-    background-color: #fafafa;
+    background-color: #FBFAF1;
+    opacity: 50%;
+}
+
+.row.splash {
+    display: block;
 }
 
 h1 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 2.6em;
-    color: #e0361c;
+    color: #B1CFBC;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 1.8em;
-    color: #e0361c; 
+    color: #B2D4DA; 
     font-weight: 300;
 }
 
 h3.subtitle {
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    color:#fa5720;
+    font-weight: 400;
+    color:#768F9C;
     font-size: 1.4em;
 }
 
 h3.work.name {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    color: #fa5720;
+    color: #768F9C;
     font-size: 1.9em;
 }
 
@@ -111,3 +120,13 @@ h3.work.name {
     padding-right: 15px;
 }
 
+.col-6.logo {
+    position: relative;
+}
+
+.col-6.logo img {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: -50px; 
+}
